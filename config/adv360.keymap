@@ -79,11 +79,11 @@
 
         layer_Symbols {
             bindings = <
- &trans  &trans  &trans           &trans    &trans  &trans            &trans  &trans  &trans                &trans                 &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &kp EXCLAMATION  &kp HASH  &trans            &trans  &trans   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none  &trans  &trans
- &trans  &trans  &trans        &kp EQUAL  &kp PLUS  &trans            &trans  &trans  &trans                                               &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp MINUS  &trans  &trans  &trans
- &trans  &trans  &trans           &trans    &trans  &trans            &trans  &trans  &trans                &trans                 &trans  &trans  &trans  &trans  &trans          &trans     &trans  &trans  &trans  &trans
- &trans  &trans  &trans           &trans    &trans  &trans            &trans  &trans  &trans                &trans                 &trans  &trans  &trans  &trans  &trans          &trans
+ &trans  &trans  &trans           &trans    &trans  &trans            &trans  &trans  &trans  &trans                &trans                 &trans    &trans    &trans
+ &trans  &trans  &trans  &kp EXCLAMATION  &kp HASH  &trans            &trans  &trans   &none  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBKT  &kp RBKT
+ &trans  &trans  &trans        &kp EQUAL  &kp PLUS  &trans            &trans  &trans  &trans                                               &trans    &trans    &trans  &trans  &kp UNDERSCORE  &kp MINUS  &trans  &trans  &trans
+ &trans  &trans  &trans           &trans    &trans  &trans            &trans  &trans  &trans  &trans                &trans                 &trans    &trans    &trans  &trans          &trans     &trans  &trans  &trans  &trans
+ &trans  &trans  &trans           &trans    &trans  &trans            &trans  &trans  &trans  &trans                &trans                 &trans    &trans    &trans  &trans          &trans
             >;
         };
 
