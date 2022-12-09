@@ -2,7 +2,7 @@ macro_ctrlw: macro_ctrlw{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrlw";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp W>;
+bindings = <&mt LCTRL W>, <&mt LCTRL B>;
 };
 macro_ctrlb: macro_ctrlb{
 compatible = "zmk,behavior-macro";
