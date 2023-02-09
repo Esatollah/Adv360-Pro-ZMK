@@ -83,7 +83,7 @@
  &trans     &kp TILDE   &kp AT_SIGN  &kp EXCLAMATION      &kp HASH      &kp STAR            &trans  &trans  &kp PIPE    &kp BSLH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &trans   &trans
  &trans      &macro_a     &kp CARET        &kp EQUAL      &kp PLUS   &kp PERCENT            &trans  &trans    &trans                                                &kp PG_DN  &kp PG_UP   &trans  &kp AMPERSAND  &kp UNDERSCORE     &kp MINUS    &kp DOLLAR  &kp LEFT_BRACE  &kp RIGHT_BRACE
  &trans  &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans  &trans    &trans      &trans                &trans                 &trans     &trans   &trans   &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0           &trans
- &trans        &trans        &trans           &trans        &trans        &trans            &trans  &trans   &kp TAB  &kp DELETE             &kp SPACE                 &trans  &kp COMMA  &kp DOT         &trans          &trans
+ &trans        &trans        &trans         &kp LEFT     &kp RIGHT        &trans            &trans  &trans   &kp TAB  &kp DELETE             &kp SPACE                 &trans  &kp COMMA  &kp DOT         &trans          &trans
             >;
         };
 
