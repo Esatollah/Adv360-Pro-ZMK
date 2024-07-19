@@ -85,11 +85,11 @@
 
         layer_Symbols {
             bindings = <
-&trans        &trans        &trans        &trans           &trans        &trans        &trans                                            &trans  &trans         &trans     &trans                &trans                 &trans          &trans
-&trans        &kp TILDE     &kp AT_SIGN   &kp EXCLAMATION  &kp HASH      &kp STAR      &trans                                            &trans  &kp BSLH       &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans          &trans
-&trans        &kp GRAVE     &kp CARET     &kp EQUAL        &kp PLUS      &kp PERCENT   &trans  &trans  &trans      &kp PG_DN  &kp PG_UP  &trans  &kp AMPERSAND  &kp UNDER  &kp MINUS             &kp DOLLAR             &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                  &trans      &trans                        &kp N6         &kp N7     &kp N8                &kp N9                 &kp N0          &trans
-&kp NUMBER_0  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9                &trans  &trans  &trans      &trans     &trans     &trans                 &trans     &trans                &trans                 &trans          &trans
+&trans        &trans        &trans        &trans           &trans        &trans        &trans                                            &trans  &trans         &trans     &trans                &trans                 &trans            &trans
+&trans        &kp AT        &kp TILDE     &kp EXCLAMATION  &kp HASH      &kp STAR      &trans                                            &trans  &kp BSLH       &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans        &kp GRAVE     &kp CARET     &kp EQUAL        &kp PLUS      &kp PERCENT   &trans  &trans  &trans      &kp PG_DN  &kp PG_UP  &trans  &kp AMPERSAND  &kp UNDER  &kp MINUS             &kp DOLLAR             &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                  &trans      &trans                        &kp N6         &kp N7     &kp N8                &kp N9                 &kp N0            &trans
+&kp NUMBER_0  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9                &trans  &trans  &trans      &trans     &trans     &trans                 &trans     &trans                &trans                 &trans            &trans
             >;
         };
 
