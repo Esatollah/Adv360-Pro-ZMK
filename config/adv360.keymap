@@ -13,6 +13,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -37,6 +38,15 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <115>;
+        };
+    };
+
+    macros {
+        ae: ue {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp KP_NUMLOCK &kt RIGHT_ALT &kp N0 &kp N1 &kp N9 &kp N6 &kt RIGHT_ALT &kp KP_NUMLOCK>;
+            label = "UE";
         };
     };
 
@@ -97,7 +107,7 @@
             bindings = <
 &trans  &kp N0         &kp N9   &kp N8     &kp N7    &kp N6  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp P          &kp O    &kp I      &kp U     &kp Y   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp SEMICOLON  &kp L    &kp K      &kp J     &kp H   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp SEMICOLON  &kp L    &kp K      &kp J     &kp H   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &ae     &trans  &trans
 &trans  &kp SLASH      &kp DOT  &kp COMMA  &kp M     &kp N                   &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans   &kp UP     &kp DOWN          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
