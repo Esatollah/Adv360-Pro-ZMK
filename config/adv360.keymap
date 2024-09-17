@@ -45,7 +45,7 @@
         ae: ue {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp KP_NUMLOCK &kt RIGHT_ALT &kp N0 &kp N1 &kp N9 &kp N6 &kt RIGHT_ALT &kp KP_NUMLOCK>;
+            bindings = <&kp KP_NUMLOCK &kt RIGHT_ALT &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N6 &kt RIGHT_ALT &kp KP_NUMLOCK>;
             label = "UE";
         };
     };
