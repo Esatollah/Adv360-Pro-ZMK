@@ -64,11 +64,11 @@
 
         default_layer {
             bindings = <
-&kp C_VOL_UP      &kp N1    &kp N2  &kp N3    &kp N4     &kp N5  &kp C_BRIGHTNESS_DEC                                                                                  &kp C_BRIGHTNESS_INC  &kp N6  &kp N7    &kp N8     &kp N9            &kp N0                      &to 6
-&kp C_VOL_DN      &kp Q     &kp W   &kp E     &kp R      &kp T   &kp ENTER                                                                                             &kp BSLH              &kp Y   &kp U     &kp I      &kp O             &kp P                       &kp BSLH
-&hm LEFT_GUI ESC  &kp A     &kp S   &kp D     &kp F      &kp G   &kp TAB               &kp LEFT_ALT  &kp BACKSPACE         &kp RIGHT_ALT               &kp TAB         &kp TAB               &kp H   &kp J     &kp K      &kp L             &hm LEFT_CONTROL SEMICOLON  &kp SQT
-&mo 5             &kp Z     &kp X   &kp C     &kp V      &kp B                                       &kp LSHIFT            &kp RIGHT_GUI                                                     &kp N   &kp M     &kp COMMA  &kp DOT           &kp SLASH                   &kp RIGHT_SHIFT
-&mo 2             &kp CAPS  &mo 7   &kp LEFT  &kp RIGHT          &kp SPACE             &kp SPACE     &kp LEFT_CONTROL      &hm LEFT_CONTROL BACKSPACE  &hrimm 4 ENTER  &kp RIGHT_ALT                 &kp DOWN  &kp UP     &kp LEFT_BRACKET  &kp RIGHT_BRACKET           &mo 3
+&kp C_VOL_UP      &kp N1    &kp N2  &kp N3    &kp N4     &kp N5  &kp C_BRIGHTNESS_DEC                                                                                &kp C_BRIGHTNESS_INC  &kp N6  &kp N7    &kp N8     &kp N9            &kp N0                      &to 6
+&kp C_VOL_DN      &kp Q     &kp W   &kp E     &kp R      &kp T   &kp ENTER                                                                                           &kp BSLH              &kp Y   &kp U     &kp I      &kp O             &kp P                       &kp BSLH
+&hm LEFT_GUI ESC  &kp A     &kp S   &kp D     &kp F      &kp G   &kp TAB               &kp LEFT_ALT  &kp BACKSPACE       &kp RIGHT_ALT               &kp TAB         &kp TAB               &kp H   &kp J     &kp K      &kp L             &hm LEFT_CONTROL SEMICOLON  &kp SQT
+&mo 5             &kp Z     &kp X   &kp C     &kp V      &kp B                                       &kp LSHIFT          &kp RIGHT_GUI                                                     &kp N   &kp M     &kp COMMA  &kp DOT           &kp SLASH                   &kp RIGHT_SHIFT
+&mo 2             &kp CAPS  &mo 7   &kp LEFT  &kp RIGHT          &kp SPACE             &kp SPACE     &kp LEFT_SHIFT      &hm LEFT_CONTROL BACKSPACE  &hrimm 4 ENTER  &kp RIGHT_ALT                 &kp DOWN  &kp UP     &kp LEFT_BRACKET  &kp RIGHT_BRACKET           &mo 3
             >;
         };
 
